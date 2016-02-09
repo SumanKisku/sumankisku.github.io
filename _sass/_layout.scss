@@ -2,16 +2,18 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid #49B293;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    @include media-query($on-palm) {
+        text-align: center;
+    }
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -20,20 +22,23 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $white-color;
+    }
+    @include media-query($on-palm) {
+        float: none;
     }
 }
 
+
+/**
+* Site Nav
+*/
 .site-nav {
     float: right;
     line-height: 56px;
 
-    .menu-icon {
-        display: none;
-    }
-
     .page-link {
-        color: $text-color;
+        color: $white-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -43,52 +48,8 @@
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
+        float: none;
+        text-align: center;
     }
 }
 
@@ -178,6 +139,9 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    padding: 10px;
+    box-shadow: 0px 1px 4px #999;
+    border-radius: 3px;
 
     > li {
         margin-bottom: $spacing-unit;
