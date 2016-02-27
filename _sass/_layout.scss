@@ -61,6 +61,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: #212A34;
 }
 
 .footer-heading {
@@ -76,7 +77,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $white-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -141,7 +142,6 @@
     list-style: none;
     padding: 10px;
     box-shadow: 0px 1px 4px #999;
-    border-radius: 3px;
 
     > li {
         margin-bottom: $spacing-unit;
