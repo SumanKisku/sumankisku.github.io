@@ -9,8 +9,7 @@
 title: Suman Kisku
 email: sumankisku1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi I am Suman Kisku. I'm a student, tech-savvy,
-  intrested in front-end web development.
+  Hi I am Suman Kisku a student. I like to play with HTML, CSS & JavaScript. Intrested in front-end development.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sumankisku.github.io" # the base hostname & protocol for your site
 twitter_username: suman_kisku

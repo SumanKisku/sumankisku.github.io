@@ -195,12 +195,13 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 30px;
+        height: 30px;
         vertical-align: middle;
+        margin-left: 10px;
 
         path {
-            fill: $grey-color;
+            fill: $white-color;
         }
     }
 }
