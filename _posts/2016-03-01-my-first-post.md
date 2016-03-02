@@ -8,7 +8,7 @@ I have already learned the basics of HTML, CSS and JavaScript.
 So everything that I would learn, I will share on this blog. So this year my target will be
 to polish my front-end development skills.
 
-## Learning the Advance of:
+## Learn the Advance of:
 
 1. HTMl
 2. CSS
