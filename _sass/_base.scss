@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} 'Roboto', sans-serif;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -95,12 +95,11 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: #013F94;
+        color: #1ABC9C;
     }
 
     &:hover {
-        color: #C22224;
-        text-decoration: underline;
+        color: #55B9F9;
     }
 }
 
