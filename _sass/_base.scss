@@ -25,7 +25,14 @@ body {
     font-kerning: normal;
 }
 
-
+::selection {
+    background: $brand-color;
+    color: $white-color;
+}
+::-moz-selection {
+    background: $brand-color;
+    color: $white-color;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
