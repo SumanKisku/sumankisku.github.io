@@ -1,11 +1,24 @@
 #copy-right{
     font-size: 16px;
     text-align: center;
-    border-top: 1px solid #828282;
+    border-top: 1px solid #1ABC9C;
     padding-top: 12px;
     color: $white-color;
 }
 .site-header{
     background: #34495E;
+    color: #fff;
+}
+.button{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    width: 120px;
+    padding: 2px;
+    margin: 15px auto 0;
+    border: 2px solid #1ABC9C;
+}
+.button:hover{
+    background-color: #1ABC9C;
     color: #fff;
 }
