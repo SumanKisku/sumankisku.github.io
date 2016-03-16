@@ -2,6 +2,8 @@
 layout: post
 title: My first post of my blog
 date: 2016-03-01
+image: assets/images/postimages/my-first-blog-post.png
+imgalt: My First Blog Post
 ---
 Hi I am Suman Kisku from India. I am intrested in front-end web development.
 I have already learned the basics of HTML, CSS and JavaScript.
