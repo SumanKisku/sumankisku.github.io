@@ -7,7 +7,7 @@ layout: default
   <div class="post-list">
     {% for post in site.posts %}
       <div class="post">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
