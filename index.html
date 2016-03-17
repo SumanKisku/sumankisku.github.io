@@ -13,14 +13,17 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
 
-        <img class="post-image" src="{{ post.image }}" alt="{{ post.imgalt }}">
+        <a href="{{ post.url | prepend: site.baseurl }}" title="Read {{ post.title }}">
+            <img class="post-image" src="{{ post.image }}" alt="{{ post.imgalt }}">
+        </a>
 
         <p>
-            {{ post.content | strip_html | truncatewords: 40 }}
-            <a href="{{ post.url | prepend: site.baseurl  }}" class="button" title="Read {{ post.title }}">
-            Read More
-            </a>
+            {{ post.content | strip_html | truncatewords: 50 }}
         </p>
+
+        <a href="{{ post.url | prepend: site.baseurl  }}" class="button" title="Read {{ post.title }}">
+            READ MORE
+        </a>
 
       </div>
     {% endfor %}
