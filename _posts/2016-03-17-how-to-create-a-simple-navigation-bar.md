@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating A Simple Navigation Bar
+title: How To Create A Simple Navigation Bar
 date: 2016-03-17
 image: assets/images/postimages/navigation-bar.png
 imgalt: Navigation Bar
