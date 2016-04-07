@@ -1,19 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Suman Kisku
-email: sumankisku1@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi I am Suman Kisku a student. I like to play with HTML, CSS & JavaScript. Intrested in front-end development.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sumankisku.github.io" # the base hostname & protocol for your site
+header-img: img/home-bg.jpg
+email: sumankisku@outlook.com
+copyright_name: Suman Kisku
+description: "Suman Kisku. What I have done all the day? Web Design Inspirations and Tips. Keep my memories on blog."
+baseurl: "http://sumankisku.github.io"
+url: "http://sumankisku.github.io"
 twitter_username: suman_kisku
 github_username:  SumanKisku
+facebook_username:  suman.kisku2
+email_username:  sumankisku1@gmail.com
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
