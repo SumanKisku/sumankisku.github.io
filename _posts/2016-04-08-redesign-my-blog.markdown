@@ -17,7 +17,7 @@ Hmm, quite good, but I want a really nice and maintainable blog. So I search for
 <img src="{{ site.baseurl }}/img/new-design.jpg">
 <span class="caption text-muted">My new design</span>
 
-The template included the about and contact page but remove the contact because it requires php which you cannot execute on GithubPages. It also included social icons and most important (for me) it comes with pagination which I could not hack at this time. I don't change the home and about page header images at this time.
+The template included the about and contact page but remove the contact because it requires php which you cannot execute on GithubPages. It also included social icons and most important (for me) it comes with pagination which I could not hack at this time.
 
 ### Some useful links
 
