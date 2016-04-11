@@ -1,9 +1,8 @@
 # Site settings
 title: Suman Kisku
 header-img: img/home-bg.jpg
-email: sumankisku@outlook.com
 copyright_name: Suman Kisku
-description: "Suman Kisku. What I have done all the day? Web Design Inspirations and Tips. Keep my memories on blog."
+description: "Suman Kisku. Get Web Design Tutorials, Inspirations Tips and Resources."
 baseurl: ""
 url: "http://sumankisku.github.io"
 twitter_username: suman_kisku
