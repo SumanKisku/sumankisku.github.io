@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redesign My Blog
-subtitle: New looks are always better
+subtitle: Personal
 date: 2016-04-08
 author: "Suman Kisku"
 header-img: "img/post-bg-02.jpg"

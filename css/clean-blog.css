@@ -36,6 +36,16 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+a.btn-download {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color: #0085a1;
+    color: #fff;
+}
+a.btn-download:hover {
+    background-color: #009999;
+}
 blockquote {
   color: #808080;
   font-style: italic;

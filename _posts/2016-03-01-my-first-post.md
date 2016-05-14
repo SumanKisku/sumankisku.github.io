@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Post of My Blog
-subtitle: Starts The Journey
+subtitle: Personal
 date: 2016-03-01
 author: "Suman Kisku"
 header-img: "img/post-bg-01.jpg"
