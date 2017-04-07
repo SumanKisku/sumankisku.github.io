@@ -18,3 +18,5 @@ paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
+
+theme: jekyll-theme-minimal
