@@ -1,22 +1,39 @@
-# Site settings
-title: Suman Kisku
-header-img: img/home-bg.jpg
-copyright_name: Suman Kisku
-description: "Suman Kisku. Get Web Design Tutorials, Inspirations Tips and Resources."
-baseurl: ""
-url: "http://sumankisku.github.io"
-twitter_username: suman_kisku
-github_username:  SumanKisku
-facebook_username:  suman.kisku2
-email_username:  sumankisku1@gmail.com
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","README.md"]
+# Setup
+title:            Suman Kisku
+tagline:          'Web Designer/Developer'
+description:      'Web Designer/Developer'
+url:              https://sumankisku.com
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
 
-gems: [jekyll-paginate, jekyll-feed]
+author:
+  name:           'Suman Kisku'
+  url:            https://twitter.com/suman_kisku
 
-theme: jekyll-theme-minimal
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            3.4.1
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+github:
+  repo:             https://github.com/fongandrew/hydeout
+
+google_analytics:   UA-75148787-1
