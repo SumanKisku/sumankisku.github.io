@@ -6,14 +6,5 @@ sidebar_link: true
 
 <img class="profile-picture" src="{{ site.baseurl }}/assets/images/sumankisku.jpg" alt="Suman Kisku">
 
-* **Name:** Suman Kisku
-
-* **Age:** 19 Years Old
-
-* **Education:**
-  * Jhargram Lion's Model School
-  * Jhargram Netaji Adarsha High School(H.S). Completed my 10th
-  * Jhargram Kumud Kumari Institution(H.S). Completed my 12th in    Humanities
-  * Jhargram Raj College(Vidyasagar University). Doing my Honours in English Litrature
-
-* **Nationality**: Indian
+Learning Web Design on my own. I can make website with HTML and CSS. And learning new web technologies.
+Currently I am trying to create my portfolio and sharing my daily experience on my blog.

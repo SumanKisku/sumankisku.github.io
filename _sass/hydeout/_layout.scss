@@ -303,8 +303,8 @@ body {
 ----------------------------------------------------------- */
 
 .profile-picture {
-  display: inline-block;
-  width: 250px;
+  display: block;
+  max-width: 250px;
   height: auto;
   margin: 0 auto;
 }
