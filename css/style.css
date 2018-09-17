@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/main-background.jpg");
+    background-size: contain;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 60px;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    margin: 0;
+    line-height: 150px;
+    align-self: center;
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+}
+
+.about-me {
+    align-self: center;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 28px;
+}
+
+img {
+    display: inline;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.my-photo {
+    height: 350px;
+    width: auto;
+    align-self: center;
+}
+
+.photo-background {
+    height: 550px;
+    width: auto;
+    align-self: center;
+    position: relative;
+    left: -80px;
+    z-index: -1;
+}
