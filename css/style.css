@@ -107,6 +107,11 @@ nav ul li a.active {
     font-weight: bold;
 }
 
+.certificate {
+    padding: 10px;
+    text-align: center;
+}
+
 footer {
     text-align: center;
     margin: 25px 0;
@@ -157,6 +162,13 @@ footer .fas {
 
     .skill-box {
         width: 150px;
+    }
+
+    .certificate {
+        grid-column: 1/4;
+        width: 90%;
+        justify-self: center;
+        padding: 30px 50px;
     }
 
     nav {
