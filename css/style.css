@@ -20,7 +20,8 @@ img {
     transform: scale(.75);
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 5px 0;
     text-align: center;
 }
@@ -35,15 +36,27 @@ h3 {
     padding-bottom: 15px;
 }
 
-h1, h3 {
-    color: rgb(232,107,1);
+h1,
+h3 {
+    color: rgb(232, 107, 1);
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: rgb(252, 192, 0);
+}
+
+a:hover {
+    color: rgb(232, 107, 1);
 }
 
 .skills {
     margin-top: 30px;
     padding-top: 30px;
     text-align: center;
-    color: rgb(252,192,0);
+    color: rgb(252, 192, 0);
 }
 
 .skill-box .fab {
@@ -80,24 +93,13 @@ nav ul {
     text-align: center;
 }
 
-nav ul li a {
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 1.5em;
-    color: rgb(252,192,0);
-}
-
-nav ul li a:hover {
-    color: rgb(232,107,1);
-}
-
 nav ul li a.active {
-    color: rgb(232,107,1);
+    color: rgb(232, 107, 1);
 }
 
 .about-me {
     margin: 20px 30px 0;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 .about-me::before {
@@ -105,6 +107,15 @@ nav ul li a.active {
     display: block;
     font-size: 32px;
     font-weight: bold;
+}
+
+.project {
+    text-align: center;
+}
+
+.project h3 {
+    padding: 0;
+    margin-top: 20px;
 }
 
 .certificate {
@@ -124,6 +135,22 @@ footer .fas {
 
 /* Responsive CSS */
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .profile-img {
+        transform: scale(.50);
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .profile-img {
+        transform: scale(.60);
+    }
+
+    .project img {
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 1024px;
@@ -137,7 +164,8 @@ footer .fas {
         margin-top: 10px;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         grid-column-start: 2;
         grid-row-start: 1;
         text-align: justify;
@@ -164,9 +192,10 @@ footer .fas {
         width: 150px;
     }
 
-    .certificate {
+    .certificate,
+    .project {
         grid-column: 1/4;
-        width: 90%;
+        max-width: 940px;
         justify-self: center;
         padding: 30px 50px;
     }
@@ -192,6 +221,7 @@ footer .fas {
         justify-self: center;
         padding-top: 40px;
     }
+
     footer {
         grid-column: 1/4;
     }
