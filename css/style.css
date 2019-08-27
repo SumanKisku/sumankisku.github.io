@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 26px;
 }
 
 p {
@@ -79,6 +79,10 @@ header {
     background-color: #fff;
     height: 15vh;
     top: -100%;
+}
+
+.visible {
+    top: 0;
 }
 
 .header-navigation ul {
@@ -188,7 +192,7 @@ main .bg-texts h2:nth-child(2) {
 } */
 
 .project-section {
-    height: 100vh;
+    height: 85vhvh;
     width: 100vw;
     display: grid;
     margin-top: 50px;
@@ -240,4 +244,26 @@ grid-row-gap: 0px;
     grid-column: 3/4;
     grid-row: 3/4;
     justify-self: center;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer-navigation {
+    width: 100vw;
+    background-color: #fff;
+    height: 15vh;
+}
+
+.footer-navigation ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    align-items: center;
 }
