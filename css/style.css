@@ -151,7 +151,7 @@ main .bg-texts h2:nth-child(2) {
     transform: translateX(50%);
 }
 
-main .cta {
+.cta {
     width: 300px;
     height: 70px;
     border: 0;
@@ -167,12 +167,12 @@ main .cta {
     transition: 0.3s transform;
 }
 
-main .cta:hover,
-main .cta:focus  {
+.cta:hover,
+.cta:focus  {
     transform: translateY(-5px)
 }
 
-main .cta:active {
+.cta:active {
     color: #00CDAC;
     background-color: #EBEBEB;
     transform: translateY(-1px)
@@ -186,3 +186,58 @@ main .cta:active {
         transform: translateY(10px);
     }
 } */
+
+.project-section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    margin-top: 50px;
+grid-template-columns: 5% repeat(3, 1fr) 5%; 
+grid-template-rows: 515px 60px 70px; 
+grid-column-gap: 30px;
+grid-row-gap: 0px;
+}
+
+.project-section .project {
+    padding: 20px;
+    box-shadow: 0px 0px 30px -20px #000;
+    transition: .3s all;
+}
+
+.project-section .project:hover {
+    transform: scale(1.1);
+}
+
+.project-section .project:first-child {
+    grid-column: 2/3;
+}
+
+.project-section img {
+    width: 100%;
+    height: auto;
+}
+
+.project-section .project-link {
+    font-family: 'Roboto', sans-serif;
+    color: #EBEBEB;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: .35s all;
+}
+
+.project-section .project-link:hover,
+.project-section .project-link:focus {
+    box-shadow: 1px 5px 10px #000;
+}
+.project-section .project-link:active {
+    box-shadow: 0px 1px 5px #000;
+}
+
+.project-section .cta {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: center;
+}
