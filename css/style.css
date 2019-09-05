@@ -186,14 +186,15 @@ grid-gap: 30px;
     background-color: #000;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: .35s all;
+    transition: .25s all;
 }
 
 .project-section .projects .project-link:hover,
 .project-section .projects .project-link:focus {
     box-shadow: 1px 5px 10px #000;
 }
-.project-section .porjects .project-link:active {
+.project-section .projects .project-link:active {
+    background-color: #00CDAC;
     box-shadow: 0px 1px 5px #000;
 }
 
